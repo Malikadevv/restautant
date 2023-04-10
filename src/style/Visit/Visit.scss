@@ -1,0 +1,232 @@
+#visit {
+  padding: 132px 0;
+  background: rgba(27, 32, 38, 1);
+
+  .visit {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    &--us {
+
+      p {
+        margin-bottom: 18px;
+        font-family: 'Spartan', serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+      }
+
+      h1 {
+        margin-bottom: 44px;
+        font-family: 'Silk Serif', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+
+
+      }
+
+      h3 {
+        font-family: 'Shalimar', serif;
+        margin-bottom: 18px;
+        margin-top: -8px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: #FFFFFF;
+
+        img {
+          margin-right: 39px;
+        }
+      }
+
+      &__lake {
+        padding: 10px 0;
+
+        h2 {
+          margin-bottom: 18px;
+          font-family: 'Spartan', serif;
+          font-weight: 500;
+          font-size: 24px;
+          color: #EF272C;
+        }
+
+      }
+
+      &__open {
+        padding: 10px 0;
+
+        h2 {
+          font-family: 'Spartan', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          /* identical to box height, or 100% */
+
+
+          color: #EF272C;
+        }
+      }
+
+      &__open {
+        h2 {
+          font-family: 'Spartan', serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 24px;
+          color: #EF272C;
+        }
+      }
+
+      &__btn {
+        margin-top: 27px;
+        button {
+          display: flex;
+          align-items: center;
+          font-family: 'Spartan', serif;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 13px;
+          text-transform: uppercase;
+          border: 2px solid #EF272C;
+          padding: 15px 30px;
+          background: none;
+          color: #FFFFFF;
+          transition: 1s;
+          cursor: pointer;
+          &:hover{
+            transform: scale(0.9);
+          }
+
+          span {
+            margin: 0 8px;
+            font-size: 20px;
+          }
+        }
+        &--line2 {
+          margin: 5px 0;
+          width: 150px;
+          height: 2px;
+          background: #EF272C;
+        }
+
+        &--liner {
+            margin: 5px 0 5px 85px;
+            width: 130px;
+            height: 1px;
+            background: #EF272C;
+
+
+
+
+        }
+
+        &__for {
+          display: flex;
+          //align-items: center;
+          align-items: baseline;
+
+
+          h1 {
+            margin-left: 44px;
+            font-family: 'Silk Serif', sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            color: #FFFFFF;
+          }
+        }
+      }
+      }
+
+    &--map {
+      width: 570px;
+      height: 512px;
+      padding: 44px;
+      background: #EF272C;
+      opacity: 0.7;
+      box-shadow: 5px 8px 26px rgba(86, 9, 187, 0.1);
+      border-radius: 2px;
+
+      &__karta {
+        margin-left: 35px;
+      }
+
+      h1 {
+        font-family: 'Gilroy', serif;
+        font-style: normal;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #1F2731;
+        margin-bottom: 23px;
+      }
+
+      &__tel {
+        color: #1F2731;
+        padding: 10px 0;
+        margin-bottom: 15px;
+
+        a {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 27px;
+          color: #1F2731;
+          margin-left: 15px;
+
+          span {
+            font-size: 40px;
+          }
+
+          color: #1F2731;
+        }
+      }
+
+      &__mesege {
+        margin-bottom: 43px;
+
+        a {
+          //padding: 10px 0;
+          font-family: 'Montserrat', serif;
+          font-weight: 400;
+          font-size: 22px;
+          color: #1F2731;
+          margin-left: 15px;
+
+          span {
+            background: black;
+            font-size: 40px;
+          }
+        }
+      }
+
+      &__icon {
+        margin-top: 40px;
+
+        &--icon2 {
+          margin: 27px 11px;
+
+          a {
+            padding: 10px 0;
+            color: #1F2731;
+            font-size: 28px;
+            margin: 10px;
+
+          }
+        }
+
+      }
+
+      &__karta {
+        margin-left: 55px;
+
+      }
+    }
+
+
+  }}

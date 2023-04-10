@@ -1,0 +1,514 @@
+#hero {
+  background: url("../../image/restaurant-1600x900.jpg") no-repeat center/cover;
+  min-height: 90vh;
+  position: relative;
+  z-index: 1;
+
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    &__line-top {
+      position: absolute;
+      z-index: 4;
+      width: 390px;
+      right: 80px;
+      top: 37px;
+      border: 0.4px solid #FFFFFF;
+      opacity: 0.6;
+
+    }
+
+    &__line-bottom {
+      position: absolute;
+      width: 1339px;
+      z-index: 4;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 63px;
+      border: 0.2px solid #FFFFFF;
+      opacity: 0.6;
+
+    }
+
+    &__line-left {
+      position: absolute;
+      height: 340px;
+      left: 70px;
+      bottom: 79px;
+      z-index: 4;
+      opacity: 0.6;
+      border: 0.4px solid #FFFFFF;
+    }
+
+    &:before {
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(4px);
+      position: absolute;
+      z-index: 3;
+      color: white;
+    }
+
+    &--block {
+      position: relative;
+      margin-top: 123px;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h4 {
+        font-family: 'Shalimar', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+        margin: 39px;
+      }
+    }
+
+
+    &--main {
+      position: relative;
+      z-index: 4;
+      margin-top: -43px;
+
+      h1 {
+        font-family: 'Silk Serif', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 98px;
+        color: #FFFFFF;
+        text-align: center;
+      }
+
+      p {
+        font-family: 'Spartan', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+
+      }
+
+      &__decor {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+          width: 169px;
+          background: red;
+          color: red;
+          border: 1.4px solid #EF272C;
+          margin: 0 145px;
+        }
+
+        button {
+          border: 2px solid red;
+          margin: 5px 125px;
+          background: transparent;
+          font-weight: 600;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 15px 20px;
+          color: #FFFFFF;
+          font-family: 'Spartan', serif;
+        }
+      }
+
+      h1 {
+        font-family: 'Silk Serif', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 98px;
+        color: #FFFFFF;
+      }
+
+      p {
+        font-family: 'Spartan', serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 20px;
+        color: #FFFFFF;
+      }
+    }
+
+    &--absence {
+      position: relative;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 70px;
+
+
+      &__archive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--icon {
+          color: #EF272C;
+          font-size: 20px;
+          margin: 0 10px 0 21px;
+        }
+
+        div {
+          width: 85px;
+          height: 2px;
+          background: #FFFFFF;
+        }
+
+        h4 {
+          font-family: 'Spartan', serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 13px;
+          text-transform: capitalize;
+          color: #FFFFFF;
+        }
+
+
+        h1 {
+          font-family: 'Spartan', serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          text-transform: capitalize;
+          color: #FFFFFF;
+          margin: 20px;
+        }
+      }
+
+      &__select {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 45px;
+
+        &--icon {
+          color: #EF272C;
+          margin: 0 15px;
+        }
+
+        div {
+          width: 85px;
+          height: 2px;
+          background: #FFFFFF;
+        }
+
+        h1 {
+          font-family: 'Spartan', serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 16px;
+          text-transform: capitalize;
+          color: #FFFFFF;
+          margin: 20px;
+        }
+
+        h5 {
+          font-family: 'Spartan', serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 13px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1440px) {
+  #hero {
+    .hero {
+      &__line-bottom {
+        width: 90%;
+        bottom: 2%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #hero {
+    .hero {
+      &__line-bottom {
+        width: 90%;
+        bottom: 2%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1140px) {
+  #hero {
+    .hero {
+      &--absence {
+        padding-top: 20%;
+      }
+
+      &__line-bottom {
+        width: 90%;
+        bottom: 2%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  #hero {
+    .hero {
+      &--absence {
+        padding-top: 20%;
+      }
+
+      &__line-bottom {
+        display: none;
+        width: 90%;
+        bottom: 2%;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #hero {
+    .hero {
+      &--absence {
+        padding-top: 20%;
+
+        &__archive h4 {
+          font-size: 60%;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 800px) {
+  #hero {
+    .hero {
+      &--absence {
+        padding-top: 20%;
+
+        &__archive h4 {
+          font-size: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    .hero {
+
+      &--main p {
+        font-size: 100%;
+      }
+
+      &__line-top {
+        width: 50%;
+      }
+
+      &--absence {
+        padding-top: 20%;
+
+        &__select {
+          flex-direction: column;
+
+          h1 {
+            margin: 5%;
+          }
+
+          &--icon {
+            display: none;
+          }
+        }
+
+        &__archive {
+          flex-direction: column;
+
+          h1 {
+            margin: 5%;
+          }
+
+          &--icon {
+            display: none;
+          }
+
+          h4 {
+          }
+
+          font-size: 55%;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  #hero {
+    .hero {
+
+      &--main {
+        h1 {
+          font-size: 40px;
+        }
+
+        p {
+          font-size: 77%;
+        }
+
+        &__decor button {
+          font-size: 60%;
+          padding: 12px 20px;
+        }
+      }
+
+      &--absence {
+        padding-top: 5%;
+
+        &__archive {
+          h4 {
+            font-size: 60%;
+          }
+
+          div {
+            height: 1px;
+            width: 66px;
+            margin: 9px  -39px 9px -38px;
+
+          }
+        }
+
+        &__select div {
+          height: 1px;
+          width: 60px;
+          margin: 9px  -39px 9px -38px;
+
+        }
+      }
+
+      &__line-left {
+        bottom: 25%;
+      }
+
+      &__line-bottom {
+        display: none;
+      }
+
+      &__line-top {
+        width: 50%;
+        display: none;
+      }
+
+
+    }
+  }
+
+}
+
+@media (max-width: 475px) {
+  #hero {
+    .hero {
+      &--absence {
+        padding-top: 4%;
+
+        &__select div {
+
+        }
+      }
+
+      &__line-left {
+        bottom: 13%;
+        margin-left: -12%;
+      }
+
+      &--main {
+        h1 {
+          font-size: 41px;
+        }
+
+        p {
+          font-size: 108%;
+          width: 60%;
+          padding-left: 17%;
+          font-weight: 400;
+        }
+      }
+
+
+    }
+  }
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 380px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+  #hero {
+    .hero {
+      &--main {
+
+        p {
+          font-size: 115%;
+          width: 66%;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+      }
+
+      &--block h4 {
+        margin: 26px;
+      }
+
+      &__line-left {
+        bottom: 14%;
+        margin-left: -17%;
+      }
+    }
+  }
+}

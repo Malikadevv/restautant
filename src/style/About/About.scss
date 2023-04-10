@@ -1,0 +1,286 @@
+
+#about {
+  padding: 80px 0;
+
+  .about {
+    .abouts {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &--all {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      &__us {
+        margin: 20px;
+
+        h2 {
+          margin-left: 120px;
+          font-family: 'Shalimar', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 49px;
+          color: #FFFFFF;
+
+          img {
+            margin-right: 39px;
+          }
+        }
+      }
+    }
+
+    &--text {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 74%;
+      margin-left: -90px;
+
+      &__jon {
+        h1 {
+          font-family: 'Silk Serif', serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 40px;
+          color: #FFFFFF;
+        }
+      }
+
+
+      &__jonTwo {
+        margin: 18px 0 60px 0;
+
+        p {
+          font-family: 'Spartan', serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+
+        &--sous {
+          display: flex;
+          width: 80%;
+          align-items: center;
+          justify-content: space-between;
+
+          img {
+            margin: 16px;
+          }
+        }
+
+      }
+    }
+
+    &--sous {
+      display: flex;
+      width: 80%;
+      align-items: center;
+      justify-content: space-between;
+
+      &--images {
+        margin: 40px;
+      }
+    }
+  }
+
+
+}
+
+
+@media (max-width: 1440px) {
+  #about {
+    .about {
+      &--text {
+        width: 78%;
+      }
+
+      &--sous {
+        width: 84%;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  #about {
+    .about {
+      &--text {
+        width: 91%;
+      }
+
+      &--sous {
+        width: 101%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1140px) {
+  #about {
+    .about {
+      &--text {
+        width: 97%;
+      }
+
+      &--sous {
+        width: 106%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+  #about {
+    .about {
+      &--text {
+        margin-left: -23%;
+        flex-direction: column;
+
+        &__jon h1 {
+          margin-left: -91px;
+        }
+      }
+
+      &--sous {
+        margin-left: -135px;
+        flex-direction: column;
+
+        .imgOne {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  #about {
+    .about {
+      &--all {
+        margin-left: -15%;
+      }
+
+      &--text {
+        margin-left: -30%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  #about {
+    .about {
+      &--text {
+        margin-left: -20%;
+        flex-direction: column;
+
+        &__jon h1 {
+          font-weight: 500;
+          font-size: 31px;
+          margin-left: -36%;
+        }
+      }
+
+      &--all {
+        margin-left: -27%;
+
+        &__us h2 {
+          font-weight: 300;
+          font-size: 37px;
+        }
+      }
+
+      &--sous {
+        margin-left: 0%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 480px) {
+  #about {
+    .about {
+      &--text {
+        margin-left: 0%;
+        flex-direction: column;
+
+        &__jon h1 {
+          font-weight: 500;
+          font-size: 31px;
+          margin-left: -31%;
+        }
+
+        &__jonTwo p {
+          font-weight: 500;
+          font-size: 15px;
+        }
+      }
+
+      &--all {
+        margin-left: -33%;
+
+        &__us h2 {
+          font-weight: 300;
+          font-size: 37px;
+        }
+      }
+
+      &--sous {
+        margin-left: 0%;
+
+        .imgOne {
+          width: 90%;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 400px) {
+  #about {
+    .about--text {
+      &__jon h1 {
+        margin-left: -19%;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+#about{
+  .about{
+
+    &--text{
+    &__jonTwo p{
+      font-weight: 500;
+      font-size: 11px;
+    }
+  }
+  }
+
+}
+}
+
+
+@media (max-width: 320px) {
+
+}
+
